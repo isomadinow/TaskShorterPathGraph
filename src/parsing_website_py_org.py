@@ -48,4 +48,4 @@ def save_to_excel(data, filename):
 if __name__ == "__main__":
     url = "https://www.python.org/downloads/"
     data = scrape_python_releases(url)
-    save_to_excel(data, 'python_releases.xlsx')
+    save_to_excel(data, 'assets/file/python_releases.xlsx')

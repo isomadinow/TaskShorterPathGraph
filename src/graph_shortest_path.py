@@ -39,7 +39,7 @@ def main():
     shortest_path = bfs_shortest_path(graph, start, end)
 
     if shortest_path:
-        with open('log.txt', 'w', encoding='utf-8') as f:
+        with open('assets/file/log.txt', 'w', encoding='utf-8') as f:
             f.write(f"Кратчайший путь из вершины {start} в вершину {end}: {' -> '.join(shortest_path)}")
         print("Результат записан в log.txt")
     else:
